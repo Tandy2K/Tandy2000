@@ -12,4 +12,4 @@ Archive for manuals, software, etc. for the Tandy 2000 personal computer.
 - [Software Images](https://github.com/Tandy2K/Tandy2000/blob/master/Software/)
 - [Magazines-Newsletters](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/Magazines-Newsletters)
 
-### Please get in touch if you have items to contibute or need help imaging/scanning.
+_Please get in touch if you have items to contibute or need help imaging/scanning._
