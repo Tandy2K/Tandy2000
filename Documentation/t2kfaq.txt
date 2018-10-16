@@ -1,0 +1,971 @@
+
+
+                        *** TRS-80 Model 2000 FAQ ***
+			   
+                          Version 2.3  (01/15/2005)
+                          Version 1.0  (05/17/1998)
+                    Jeff Hellige (jhellige@earthlink.net)
+
+============================================================================
+    This is the second major version of a FAQ for the TRS-80 Model 2000
+microcomputer.  It is far from complete and will be added to as I gain more
+information with which to fill out different sections.
+============================================================================
+
+Contents:
+------
+    1) Purpose
+    2) Disclaimer
+    3) What is the TRS-80 Model 2000?
+    4) What made the Model 2000 so much more advanced than the IBM PC-XT?
+    5) If the machine was so advanced, why wasn't it successful?
+    6) What about hardware?
+    7) What monitors were available for the Model 2000?
+    8) If the CM-1 is so rare, are there other color monitors one can use?
+    9) Can a dual-floppy Model 2000 be upgraded to a Model 2000HD?
+    10) What connections were made between the two power supplies?
+    11) What is the external hard disk unit?
+    12) What is the clock/mouse board?
+    13) What about the floor stand Tandy sold for the Model 2000?
+    14) Can the 720k drive in the Model 2000 read/write 360k floppies?
+    15) Can a 1.2meg floppy on my PC read the Model 2000's 720k disks?
+    16) Can I put a 720k 3-1/2" DSDD drive in my Model 2000?
+    17) What can I use if I can't find the Tandy Digi-Mouse?
+    18) What is the DCS?
+    19) What are the details concerning the Model 2000's serial ports?
+    20) What is the serial expansion board?
+    21) How can I take a 128k RAM expansion board to 256k?
+    22) What is the 'International' keyboard?
+    23) What is the TV/Joystick option board?
+    24) Where's the socket for the 8087 co-processor?
+    25) What are the specifications for the Intel 80186 cpu?
+    26) What are the pinouts for the Model 2000's various ports?
+    27) What operating systems could the Model 2000 run?
+    28) What software was made for the Model 2000?
+    29) Can you run IBM-compatible software on the Model 2000?
+    30) Is it possible to get 'online' with a Model 2000?
+    31) How can I run Infocom text adventures on the Model 2000?
+    32) Can I run Microsoft Windows on the Model 2000?
+    33) What are the 'MAI/Basic Four' programs?
+    34) Are there any books available on the Model 2000?
+    35) What 'Tech Bulletins' were sent out by Tandy?
+    36) Where can I get support for this machine?
+    37) What is 'Envision Designs'?
+    38) What is 'Microlink Technology'?
+    39) Future plans for this FAQ
+
+    *** - To be completed in the next version of this FAQ 
+============================================================================
+1) Purpose:  
+------
+    The purpose of this FAQ (Frequently Asked Questions) file is to provide
+a single repository for general information regarding the TRS-80 Model 2000
+and 2000HD microcomputers produced by Tandy Corp.  Though sometimes also
+referred to as the Tandy 2000 or T2K, for the purposes of this FAQ, all
+references to the machine, including the 2000HD, will be 'Model 2000'.  The
+latest version of this FAQ may be found at:
+
+                    http://www.cchaven.com/t2kfaq.txt
+
+     All additions or corrections can be submitted to the author, Jeff
+Hellige, at: Jhellige@earthlink.net
+
+     Special thanks to:
+
+        - Frank Durda for contributing new info concerning the Model 2000's
+          production and the existence of Model 2000 Xenix
+        - Dennis Smith for providing info on the external hard disk unit and
+          the serial expansion board.
+        - Roy Soltoff for providing lots of additional documentation
+        - Michael Webb for creating the Tandy2k.zip archive
+        - Jim Atchison for providing additional software information
+        - Axel Harten for the copy of the German print advertisement
+
+============================================================================
+2) Disclaimer:
+------
+    All information contained in this FAQ is provided for informational 
+purposes only, to those people interested in the TRS-80 Model 2000 & 2000HD
+microcomputer, it's history, and it's continued use. This FAQ may be printed
+and posted elsewhere as long as it is done so in it's entirety and not
+modified.  All hardware & software mentioned are property of the respective
+copyright owners.  When known, original list prices are shown for hardware
+and software for the purpose of historical interest and perspective only.
+All text describing a hardware modification are to be followed at the risk
+of the reader, as they have not necessarily been tried by the author.
+
+============================================================================
+3) What is the TRS-80 Model 2000?
+------
+    The TRS-80 Model 2000 was Tandy's first try at marketing a MS-DOS based
+machine.  It was superior to the IBM PC-XT in every way and even cost less
+as a bonus.  It was manufactured between November 1983 and June 1984, though
+there was enough inventory onhand to continue selling them well into 1986.
+At one point, there were so many Model 2000's stacked in Tandy warehouses
+and factories that Tandy 'sold' 7500 of them to Radio Shack Computer Centers
+to be used as daily report and Point-of-sale systems.  Finally in 1989 Tandy
+sold the remaining machines off for next to nothing in one big sale.  The
+2000HD was the Model 2000 shipped with a Tandon 10meg MFM hard disk
+installed.  The machines used in Radio Shack stores as Point-of-sale systems
+tended to be fitted with the external hard disk unit.  The Model 2000 was
+housed in a stylish white case with black drive bezels with power and reset
+switches recessed in the front panel near the TRS-80 emblem.
+
+    a) TRS-80 Model 2000 (dual floppy) - #26-5103
+    b) TRS-80 Model 2000HD (10meg HD, single floppy) - #26-5104
+
+    The following are the Model 2000's specifications as taken directly from
+Tandy FaxBack document# 1941:
+
+  Dimensions: 19 x 16 x 6                 Weight: 26.5 lbs.
+  Processor: 80186                        CPU Speed: 8 MHz
+  FCC Class: A, UL Listed                 Wait States: N/A
+                                          Add. Device Exp: N/A
+  # of Slots: 4 (96-Pin Euroconnector)    Std. Memory: 256K
+  MTBF: N/A                               Max. Memory: 768K
+  Op. Sys: 2000 MS-DOS Only *Not PC Compatible*            
+  Video: Built-in Mono                    Power Supply: 45 to 135 VAC,
+         Optional Color                                 60 Hz, 136 Watts
+  Heat Output: N/A                        Keyboard: 90-Key Sculptured
+  Std. Ports:                             Math Co.: 8087  8 MHz Intel (Opt)
+  Monochrome Video-(8 Pin Din)            Floppy: 720K 5.25" DS 80 Track
+  Serial-(DB-25 F)                        Environment: Operating: 55 to 96F
+  Centronics Parallel-(34 Pin Header)                  Storage:-40 to 160 F
+                                                       Humidity: N/A
+  CURRENT BIOS ROM Version: 02.00.00      Utilities Version: N/A
+
+============================================================================
+4) What made the Model 2000 so much more advanced than the IBM PC-XT?
+------
+   a) CPU: 8mhz Intel 80186 when the PC-XT was running an 8088 at 4.77mhz.
+      The 80186 is a 16bit CPU.
+   b) Floppy: Mitsubishi 720k DSQD (80 track, Quad Density) floppies vice 
+      the 360k DSDD floppies used by the PC-XT.
+   c) Graphics: 8 colors at 640x400 when CGA was 4 colors at 320x200 and
+      640x200 in black/white.  
+   d) Price: $2999 vice $3658 for a similarly equipped IBM PC-XT, as of
+      9/1/83.
+
+   Model 2000: 128k RAM, 80186 at 8mhz, dual 720k floppy drives, monochrome
+               graphics with VM-1 monitor, RS-232 (built-in) & parallel
+               printer ports (built-in), MS-DOS 2.0
+
+   IBM PC-XT:  128k RAM, 8088 at 4.77mhz, dual 320k floppy drives, mono
+               display (text only), RS-232 and parallel printer ports, 
+               MS-DOS 2.0.
+
+   All of the above combined to make the Model 2000 an excellent business
+machine at the time, especially for CAD work.  Tandy at one time used the
+machine in most of the Radio Shack Computer Center's for in-house databases
+and accounting.  The Model 2000 was also faster than the early PC-AT, which
+used a 6mhz 80286 cpu, and which was announced in August 1984.  The PC-AT
+listed for $4000 without a hard drive, video card, or monitor, while that
+rose to $6700 with the addition of a 20meg hard disk, color card and
+monitor.
+
+============================================================================
+5) If the machine was so advanced, why wasn't it successful?
+------
+   The Model 2000 had one thing against it, and it proved to be a big
+problem. Even though it ran MS-DOS the Model 2000 couldn't run most software
+made for the PC-XT because of it's hardware differences.  This was at a time
+when IBM compatibility was becoming a major selling point.  Any software
+written to access the hardware of the PC-XT directly would fail on the Model
+2000.  Only software which was either written specifically for the machine
+or which accessed the hardware using BIOS calls would run properly.
+Programs which deal with graphics are especially problematic.
+
+     Unfortunately as well, the Model 2000 started having bugs pop up almost
+as soon as it was released.  As they were discovered, Tandy released updates
+to it's repair centers in the form of 'tech bulletins'.  In all, there were
+46 of these bulletins sent out, ranging from faulty contact between the
+expansion boards and the bus connector due to improper seating, through
+the machine randomly resetting itself due to a faulty variable potentiometer
+on the power supply.  See Section #35 of this FAQ for a listing of these
+Tech Bulletins and the dates they were released.
+
+============================================================================
+6) What about hardware?  
+------
+    The Model 2000's hardware totally departed from the then-emerging IBM
+standard, in an effort to create a superior system and to try to take away
+some of the PC-XT's steam and market share.  The four expansion slots were
+proprietary and few systems made before or since have used either the 80186
+cpu or the 720k Quad Density floppy drives (The Altos 586T is one of the few
+systems to also use the 720k QD 5-1/4" floppy, though it's drive was made
+by Shugart).  The signal put out by the Model 2000's graphics board is also
+of too high a frequency to be able to be recognized by the standard CGA
+monitors of the period.  Hence, Tandy released two digital monitors
+specifically for the machine.  It should be noted that while Tandy used a
+fairly standard DB-25 connector for the Model 2000's serial ports, they used
+a non-standard 34 pin header connector for the parallel port.  
+
+     A pricelist dated November 30, 1983 in PDF format is available at the 
+homepage for this FAQ.  This pricelist was sent to Radio Shack stores and 
+district managers from the District #81 office in Rosslyn, Virginia to act
+as a price guide for the then-new Model 2000 and it's various hardware
+options.
+
+     The following are some of the items available for the Model 2000:
+     (note: All sold by Tandy except for the three from Envision Designs;
+      all prices are original list)
+
+    a) B/W graphics board - #26-5140 ($449.00)
+    b) Color graphics option for above - #26-5141 ($199.00)
+    c) 128k RAM expansion board - #26-5160 ($299.00)
+       (plugs into mainboard for 256k total)
+    d) 128k RAM expansion board (plugs into expansion slots) - #26-5161
+       ($499.00)
+    e) 128k RAM expansion option - #26-5162 ($299.00)
+       (takes #26-5161 up to 256k using 18-64k x 1 chips) 
+    f) TV/Joystick board - #26-5142 ($249.95)
+    g) Digi-Mouse/Clock board - #26-5144 ($119.95)
+    h) Vianet board - #260-1220 or 260-1221
+    i) DCS (disk cartridge system) Interface Kit - #26-5147
+    j) GT-2000 graphics tablet (required for VersaCAD) - #??
+    k) Digi-Mouse - #26-1197 ($99.95)
+    l) Tandy 2000 DOS Manual (packed with system) - #MT-2605103
+    m) Tandy 2000 BASIC Manual (packed with system) - #MT-260513-H
+    n) Parallel printer cable - #26-4401
+    o) 898k memory upgrade on mainboard from Envision Designs (no known
+       part#)
+    p) 640k memory expansion board from Envision Designs (no known part#)
+    q) Hard disk controller with external connector - #AX-9577
+    r) Hard disk controller without external connector - #AX-9451
+    s) Hard disk controller (external connector only) - #26-5127
+    t) Model 2000 hard disk upgrade kit (internal with 10meg HD) - #26-5125
+    u) Serial expansion board - #26-5164
+    v) 8087 numeric coprocessor board - #26-5143
+    w) 8087 numeric coprocessor board from Envision Designs (no known part#)
+    x) Monitor pedestal for VM-1 - #26-5115 ($89.95)
+    y) Floor stand - #26-5116 ($145.00)
+    z) External hard disk unit - #25-1025 ($699.00)
+
+============================================================================
+7) What monitors were available for the Model 2000?
+------
+    a) VM-1: the 12" monochrome monitor by Tandy, part# 26-5111 ($249.00)
+    b) CM-1: the 14" color monitor by Tandy, part# 26-5112 ($799.00), rare
+       even when the Model 2000 was a recent machine, and very difficult
+       to find now. The CM-1 used an included adapter cable to go from it's
+       EIA 8-pin connector to a DB-9.
+
+       Note: Both monitors offer the same 640x400 graphics resolution and
+       26.4 khz scan frequency, though the text resoultion on the VM-1 was
+       much higher.
+
+     The VM-1 had two cables available as follows:
+
+    a) 8-pin DIN to 8-pin DIN (no graphics board installed) - #WA-0422
+    b) 8-pin DIN to DB-9 (graphics board installed) - #WA-0204
+
+     Interestingly, Tandy also released three video cards so that the CM-1 
+could be used on a regular PC-XT machine.  As taken directly from the 'Tandy
+1000-series FAQ' by Jeff Hayes <tvdog@agate.net>:
+
+     "Tandy made at least three video cards that would permit the CM1 to be
+used with an IBM PC. With the Dual Text Display Adapter, catalog number
+25-3046, the CM1 displays only text. With the Dual Graphics Display Adapter,
+catalog number 25-3047, the CM1 can display CGA-compatible 640x200 graphics,
+or 640x400 graphics with special software. With the Enhanced Graphics
+Adapter, catalog number 25-4037, the CM1 displays 640x350 EGA graphics. The
+VM1, a monochrome monitor for the 2000, works with the same cards. No
+non-Tandy card will work with the CM1 or VM1." 
+
+============================================================================
+8) If the CM-1 is so rare, are there other color monitors one can use?
+------
+    Most early multisync-type monitors that accept digital input and which
+can sync to the Model 2000's 26.4 khz scan frequency should work fine.  I
+personally have used a NEC Multisync and NEC Multisync GS with this machine.
+The graphics adapter utilizes a standard DB-9 video connector.
+
+============================================================================
+9) Can a dual-floppy Model 2000 be upgraded to a Model 2000HD?
+------
+     Tandy sold a hard disk upgrade kit for the dual-floppy Model 2000 which
+essentially included everything needed, including a Tandon 10meg drive which
+was mounted internally.  The Model 2000 hard disk upgrade kit carried part#
+26-5125.  For the user to do the upgrade themselves required the following:
+
+    a) Secondary 38w piggyback power supply, as the main power supply is not
+       strong enough to handle the additional load.  Part# ??
+
+    b) Bracket to hold the hard disk between the floppy mounting tower and
+       the power supply.  part# ??
+
+    c) MFM hard disk of your choice. Seagate ST-225's work fine for this, as
+       the 10meg Tandon drives shipped with the 2000HD were quite slow.
+
+    d) MFM hard disk controller.  There were three major versions of this
+       made for the Model 2000.  The earlier version of the board didn't 
+       include a connector for an external drive, while the later did. These
+       boards could not support drives daisy chained together.  Some users
+       even used the external connector to feed the ribbon cables back into
+       the machine to allow two half-height hard disks to be used.  This
+       board must go in the top expansion slot.  The third version of the
+       board seems to have been used mainly by Tandy for machines used in
+       Radio Shack stores and only had the external connector, with no
+       provisions for using internal drives.
+
+    e) Secondary expansion slot connector for connecting the MFM control and
+       data cables to the hard disk controller. Connects inline with the top
+       expansion slot on two stanchions.  This is required, as an additional
+       connector on the expansion card plugs into this, which in turn splits
+       into the control and data cables for the MFM hard disk.  The cables
+       feed through a cutout in the card cage to the rear of the drive.
+
+    If the user bought a hard disk controller with an external connector and
+the external hard disk unit, #25-1025, the above items were no longer
+required since the external drive had it's own power supply and connecting
+cable.  Also, Tandy Technical Bulletin #2000:22 states that in order for 
+the Model 2000 to use the hard disk, one must check the version of the boot
+ROMs at U47 and U48.  If they are marked 'Boot HD' or 'Boot 103' then they
+will work as hard disk boot ROMs.  If marked 'Boot 16' then they will have
+to be replaced with the following:
+
+      U47  MX-5996
+      U48  MX-6006
+
+============================================================================
+10) What connections were made between the two power supplies?
+------
+    The below information was taken directly from Tandy Technical Bulletin
+#2000:22, dated August 14, 1984, outlining the installation of the hard
+drive upgrade kit into a Model 2000, #26-5103:
+
+PROCEDURE: Remove top cover from computer.  Remove access plate on top of
+main power supply.  Install hard drive power supply as follows:
+
+1) Hook extra AC connector (blue-brown) from main supply AC harness to
+connector next to fuse on hard drive supply.
+
+2) Use one of the green ground wires supplied to run from the spade lug on
+hard drive supply to grounding bolt on the inboard side of main supply
+case.
+
+3) Connect Red plugs on DC harness supplied with kit to J5 & 6 on hard
+drive supply.  Mount supply component side down in the hole where the
+access cover used to be.  Be sure to correctly place grommet on DC harness
+through slot in hard drive supply to avoid chaffing.
+
+  **** Perform at your own risk ****
+    
+============================================================================
+11) What is the external hard disk unit?
+------
+	The external hard disk unit carried Tandy part# 25-1025 and listed
+for $699.00.  It included the enclosure with built-in power supply and the
+same Tandon 10meg hard disk that was used in the Model 2000HD.  It was 
+connected to the external connector on the hard disk controller.  It is said
+that the hard disk controllers used with some machines in Radio Shack stores
+were modified so that the Model 2000 would boot from the external drive.  
+Also it should be noted that in order for the drive to power on and spin-up,
+the computer itself must be powered on.  This drive was also sold for use on
+other Tandy machines.
+
+============================================================================
+12) What is the clock/mouse board?
+------
+     The clock/mouse board, part# 26-5144 , provided a battery-backed clock
+as well as the interface for a digital mouse.  This item became available 
+3/15/84 and allowed a mouse to be used with such programs as VersaCAD and 
+MS-Windows 1.  The digital mouse carried part# 26-1197.
+
+    As an interesting side note, the actual circuit card for the clock/mouse
+board only used roughly one-half of it's mounting tray. In comparison, most
+of the other slide-in expansion cards took up the whole width of the tray
+and expansion slot. 
+
+============================================================================
+13) What about the floor stand Tandy sold for the Model 2000?
+------
+     The floor stand allowed you to mount the Model 2000 vertically, raising
+it off the floor approximately 4-6 inches.  The stand was molded plastic, in
+a backwards-"L" shape.  It was the same color as the Model 2000's case and
+the computer mounted to it using four long screws which went through the
+stand and into the bottom of the Model 2000.  There was a cutout at the rear
+for the various ports coming off the computer and the black/silver TRS-80 
+badge on the front of the Model 2000 rotated to match the computers vertical
+position. It made for quite a nice looking unit when used together.  It came
+with a special extension cable that allowed connection of both the monitor
+and keyboard and placement of them up to 8 feet away from the machine.  This
+extension cable was needed since the keyboard connector at the front of the
+machine is covered by the floor stand.  One of the connectors on the cable
+plugged into the keyboard connector, fed beneathe the machine and came out
+the rear of the floor stand, where it merged with the extension cable which
+plugged into the monitor port.  There were two different versions of the
+cable, depending on which monitor port was to be used.
+
+============================================================================
+14) Can the 720k drive in the Model 2000 read/write 360k floppies?
+------
+     Yes, though there were two revisions of the Mitsubishi floppy drive
+used in the Model 2000 during it's production and I've heard complaints that
+the later version sometimes has problems with DSDD diskettes. Tandy included
+a utility with it's DOS version that allowed the user to format standard
+360k diskettes.  Floppy used is Mitsubishi 4853 (early machines) and 4853-1
+(late machines).  According to Feb 20, 1988 'Whimper' Mitusbishi 504B312U
+may be a good substitute if a floppy drive needs replacement.  It is not
+known if DSQD floppy drives from other manufacturers, such as Shugart, are
+usuable as replacement drives.  The utility  to format standard 360k disks
+and syntax for it's use is:
+
+	       PCMAKER [drive] [/V]   
+
+    Note: the /V switch causes it to ask for a volume lable.  If you omit
+the [drive] designator, PCMAKER formats the current drive.  PCMAKER.COM is
+available through Tandy Software Replacement as catalog number 700-3602.
+
+============================================================================
+15) Can a 1.2meg floppy on my PC read the Model 2000's 720k disks?
+------
+    Not directly, no. There is a utility, written by David Ogle back in June
+of 1987, called Zapmid that will do just that when used in conjunction with
+either INTRCPT (author unknown) or 800 II (written by Alberto Pasquale).
+Zapmid along with 800 II are available at the home page for this FAQ as file
+Tandy2k.zip. What Zapmid does is change the Media descriptor in the boot
+record and the FAT ID on the first FAT to F9h in order for the disks to be
+recognized by PC-DOS as 80-track diskettes.  INTERCPT and 800 II tell PC-DOS
+how to recognize the 80 track format.  800 II is a newer, easier to use
+program.
+
+============================================================================
+16) Can I put a 720k 3-1/2" DSDD drive in my Model 2000?
+------
+    Yes, a Panasonic JU-253P, with a jumper unsoldered from R54 and soldered
+at R63. This taken from the Jan 23, 1990 issue of the 'Whimper' newsletter.
+It says it used this drive because the connector was on the right side (seen
+from the front).  They also used Panasonic bracket #JU-FDD8200B.  It says it
+won't work with compdupes or diskcopies with the 720k 5-1/4" drive.
+
+ **I've not tried this..do at your own risk**
+
+============================================================================
+17) What can I use if I can't find the Tandy Digi-Mouse?
+------
+    It's possible to take a Tandy part# 25-1040 mouse and rewire the
+connector to a 9pin female plug to work in place of the Digi-Mouse. I don't
+know the pinout differences though. Taken from the Sept 8, 1989 issue of the
+'Whimper'. The pinout for the mouse port is shown in section 26 of this faq.
+
+============================================================================
+18) What is the DCS?
+------
+    DCS stands for Disk Cartridge System.  Basically it was a 10meg 8" 
+cartridge disk system made by Iomega.  The drive itself was Tandy #26-1245
+and required the use of DCS Interface Kit, #26-5147, which included the
+non-booting controller, connecting cable, utilities diskette, and user's
+manual.  The utilities diskette was Tandy 2000 specific.  Iomega later
+created a special program so that the Model 2000 could use the 20meg version
+though it wasn't widely distributed, so it may be difficult to locate.  It
+would appear that the utility to use the full capacity of the 20meg version
+of the Iomega cartridge system were created by Iomega at the request of the
+Tandy 2000 Orphans User Group.
+
+============================================================================
+19) What are the details concerning the Model 2000's serial ports? 
+------
+    The serial interface of the Model 2000 relies on the 8251A UART.  The
+8251A is clocked at 2.00 MHz and is mapped at 0010H - 001FH in the CPU
+peripheral address space at even locations only.  The 8251A is capable of
+up to 19.2K Baud in asynchronous mode.
+
+    In asynchronous operation, the baud rate clock is derived from the Intel
+8253-5 programmable interval timer.  In synchronous mode, the baud rate
+clock is generated from the remote device.
+
+    The above data was taken from the 'Tandy Model 2000 Service Manual',
+including the Intel data sheets contained within it.
+
+============================================================================
+20) What is the serial expansion board?  
+------
+     The Serial expansion board, Tandy part# 26-5164, is a 4-port serial
+board that plugs into one of the 4 expansion slots on the Model 2000.  It 
+currently is not known what the intended use for this board was or what
+software took advantage of it.  It is possible to use up to two of these
+boards in the Model 2000, giving it a total of 9 serial ports!  According
+to the board's manual though, there was a modification needed to the
+mainboard in order to install the second one.  See section 35 for the
+Technical Bulletin which details this modification.  The manual that shipped
+with the board was rather sparce, containing more programming information
+than anything else.
+
+============================================================================
+21) How can I take a 128k RAM expansion board to 256k?
+------
+	Tandy sold an option to take the standard #26-5161 RAM expansion
+board, which plugged into the expansion slots, to 256k using 18 64k x 1 DRAM
+chips.  The 256k upgrade for the board carried part# 26-5162 and listed for
+$299.00.  
+
+============================================================================
+22) What is the 'International' keyboard?
+------
+     The standard keyboard that Tandy shipped with the Model 2000 had 90
+keys.  The International keyboard had 96 keys, adding numerous international
+symbols.  It is known that at the least this keyboard was provided to the
+German market, as shown in an advertisement dated April 1985, from the
+German "Chip" magazine.  The photograph clearly shows the international
+keyboard with the Model 2000.  A JPG of this advertisement is available at
+the homepage of this FAQ.  It is not known what Tandy part# it carried.
+Just like the standard keyboard, it's sticker on the bottom simply states
+'TRS-80 Model 2000 Personal Computer Keyboard'.  One very noticable
+difference between the two are the 5 keys on either side ofthe spacebar,
+where there are none on the standard keyboard.  On the International
+keyboard, there are two keys directly to the left and three keys directly
+to the right of the spacebar. Be careful when plugging this up to a
+standard Model 2000, as I tried to boot mine with it and in order to get the
+machine to boot right again, I had to reboot without the keyboard attached.
+Does anyone have any more info on this keyboard and what changes were made
+for it's use?
+
+============================================================================
+23) What is the TV/Joystick option board?
+------
+    Supposedly, this item became available on 3/15/84, though I've never
+actually seen one or talked to anyone that has. It allowed the connection of
+a TV or other non-Model 2000 monitor to the Model 2000, as well as including
+a sound generator and support for the use of Color Computer-style joysticks.
+
+============================================================================
+24) Where's the socket for the 8087 co-processor?
+------
+    Unlike a good many other machines based on the Intel 80x86 family of
+processors, the Model 2000 doesn't have a socket for it's co-processor.  The
+8087 was mounted on a daughtercard, which was then mounted to the mainboard.
+It was not possible for the user to do this upgrade, though Envision Designs
+did come up with an alternative to the official Tandy upgrade later. Neither
+of these upgrades is still available.
+
+============================================================================
+25) What are the specifications for the Intel 80186 cpu?   
+------
+   The following was taken directly from Intel order# 210451-003, dated
+July 1983 and copyright 1983 by Intel Corporation:
+
++ Integrated Feature Set
+	- Enhanced 8086-2 CPU
+	- Clock Generator
+	- 2 Independent, High-Speed DMA Channels
+	- Programmable Interrupt Controller
+	- 3 Programmable 16-bit Timers
+	- Programmable Memory and Peripheral Chip-select Logic
+	- Programmable Wait State Generator
+	- Local Bus Controller
++ Available in 8 MHz (80186) and cost effective 6 MHz (80186-6) versions.
++ High-Performance Processor
+	- 2 Times the Performance of the Standard iAPX 86
+	- 4 Mbyte/Sec Bus Bandwidth Interface
++ Direct Addressing Capability to 1 MByte Memory
++ Completely Object Code Compatible with All Existing iAPX 86, 88 Software
+	- 10 New Instruction Types
++ Optional Numeric Processor Extension
+	- iAPX 186/20 High-Performance 80-bit Numeric Data Processor  
++ The 80186 is housed in a 68-pin, leadless JEDEC type A hermetic chip
+  carrier and required the IDT 3M Textool 68-pin JEDEC socket.
+
+    Obviously, this is just the very tip of the data, as there are many
+pages of diagrams and charts in the document that I've not reproduced here.  
+============================================================================
+26) What are the pinouts for the Model 2000's various ports?
+------
+    The following was taken directly from Tandy FaxBack document# 1944:
+
+GND = Ground     NC = Not Connected     * = Active Low Signal
+
+Printer - 34 pin header:               Floppy - 34 pin card socket:
+
+1  Strobe*          2  GND             1  GND           2  NC
+3  Data 0           4  GND             3  GND           4  In Use*
+5  Data 1           6  GND             5  GND           6  NC
+7  Data 2           8  GND             7  GND           8  Index*
+9  Data 3           10 GND             9  GND           10 Drive Select 0*
+11 Data 4           12 GND             11 GND           12 Drive Select 1*
+13 Data 5           14 GND             13 GND           14 NC
+15 Data 6           16 GND             15 GND           16 Motor On*
+17 Data 7           18 GND             17 GND           18 Direction*
+19 Acknowledge*     20 GND             19 GND           20 Step*
+21 Busy             22 GND             21 GND           22 Write Data*
+23 Paper Out        24 GND             23 GND           24 Write Enable*
+25 Select* (busy*)  26 Strobe In       25 GND           26 Track 0*
+27 GND              28 Fault*          27 GND           28 Write Protect*
+29 In 0             30 In 1*           29 GND           30 Read Data*
+31 GND              32 In 2            31 GND           32 Side Select*
+33 GND              34 Buffer Full     33 GND           34 Drive Ready*
+
+Keyboard - 5 pin DIN:  Monochrome - 8 pin DIN:  Serial Port - DB-25 Female:
+
+1  Keyboard Data        1  NC                     1  GND
+2  Keyboard Busy*       2  GND                    2  Transmit Data
+3  GND                  3  Intensity              3  Receive Data
+4  Keyboard Clock*      4  Horizontal Sync        4  Request to Send
+5  +5V                  5  Vertical Sync          5  Clear to Send
+                        6  NC                     6  Data Set Ready
+Power Connector (2):    7  Video Signal           7  Signal Ground
+                        8  NC                     8  Carrier Detect
+1  +12V  (orange)                                 9  NC
+2  GND   (black)        Speaker - 2 pin header:   10 NC
+3  GND   (black)                                  11 NC
+4  +5V   (red)          1  Sound     2  GND       12 NC
+                                                  13 NC
+Color Monitor on        Mouse Interface on        14 NC
+Graphics Board:         Digi-Mouse Board:         15 Transmit Clock
+                                                  16 NC
+1  GND                  1  GND                    17 Receive Clock
+2  GND                  2  +5V                    18 NC
+3  Red                  3  Switch 3*              19 NC
+4  Green                4  X-Axis Phase A         20 Data Terminal Ready
+5  Blue                 5  X-Axis Phase B         21 NC
+6  Intensity            6  Switch 2*              22 Ring Indicator
+7  NC                   7  Switch 1*              23 NC
+8  Horizontal Sync      8  Y-Axis Phase A         24 NC
+9  Vertical Sync        9  Y-Axis Phase B         25 NC
+
+============================================================================
+27) What operating systems could the Model 2000 run?
+------    
+    Tandy relseased only one version of MS-DOS for the machine, and that was
+a special version of MS-DOS 2.11, which went through 3 revisions during the
+machines lifetime, the last one being 2.11.03. Tandy sent a service bulletin
+out to all registered owners on May 21, 1987 announcing the 2.11.03 upgrade,
+stating that is was a 'required' upgrade and that there was a nominal charge
+of $9.95 (U.S.) for this upgrade.  A PNG image of this bulletin is available
+at the homepage for this FAQ. 
+
+    It is impossible to use a later non-Model 2000 version of MS-DOS, again
+due to hardware differinces.  One interesting side note about this special
+MS-DOS was that it's whole character set was loaded into RAM and there were
+shareware/public domain utilities available that allowed you to redefine the 
+whole character set and load the new fonts at bootup.  This made for some
+interesting effects, as there were some unusual fonts for it out there! At
+various times, there have been reports of people attempting to port or modify
+other versions of MS-DOS to function on the Model 2000, though I'm not aware
+of any that were successful.
+
+     Tandy did sell SCO Xenix for the Model 2000 but it was never advertised
+much.  It reportedly didn't function well and caused previously unknown bugs
+in the Model 2000 to surface, hence a lot of the tech bulletins designed to
+fix them. 
+
+============================================================================
+28) What software was made for the Model 2000?
+------
+     The following software was either released or in developement for the
+Model 2000 as of 11/30/83 (Note: All prices are original list price and
+Tandy catalog numbers are shown when known):
+
+	a) MS-Pascal compiler - #26-5256 ($299.95)
+	b) MS-Basic compiler - #26-5251 ($299.95)
+	c) MS-Fortran - #26-5255 ($349.95)
+	d) MS-Assembler - #26-5252 ($99.95)
+	e) MS-DOS Cobol - #26-5257 ($595.00)
+	f) Multimate - #26-5330 ($249.95)
+	e) PFS-Write - #26-5309 ($140.00)
+	f) Microsoft Word - #26-5314 ($375.00)
+	g) PFS-File - #26-5305 ($140.00)
+	h) PFS-Report - #26-5306 ($125.00)
+	i) PFS-Graph - #26-5307 ($140.00)
+	j) dBase II - #26-5352 ($595.00)
+	k) Microsoft Multiplan - #26-5311 ($249.00)
+	l) Videotex Plus - #26-5260 ($49.95)
+	m) The Home Accountant Plus - #26-5340 ($124.95)
+	n) Planetfall - #26-5377 ($49.95)
+	o) The Witness - #26-5376 ($49.95)
+	p) MAI/Basic Four General Ledger - #26-5210 ($495.00)
+	q) MAI/Basic Four Accounts Payable - #26-5212 ($495.00)
+	r) MAI/Basic Four Accounts Receivable - #26-5213
+	s) MAI/Basic Four Inventory Control - #26-5214 ($495.00)
+	t) MAI/Basic Four Order Entry - #26-5215 ($495.00)
+	u) MAI/Basic Four Purchase Order Control - #26-5217 ($395.00)
+	v) MAI/Basic Four Payroll - #26-5218 ($495.00)
+
+	The following appeared later, though this is not a complete list:
+
+	a) Lotus 1-2-3 - #26-5300
+	b) Ashton-Tate Framework - #26-5320
+	c) dBase III - #26-5353
+	d) Microsoft Flight Simulator 1
+	e) Microsoft Windows 1 (requires driver disk, Tandy #7002611)
+	f) VersaCAD
+	g) Lotus Symphony
+	h) Pagemaker 1 (from within Windows 1)
+	i) Varsity Scripsit for Model 1000/2000 - #25-1174 (released 1987)
+        j) DR DRAW - #26-5279
+        k) Graphwriter - #26-5276 
+
+============================================================================
+29) Can you run IBM-compatible software on the Model 2000?
+------
+     Most of the time no, but there were a few well-behaved and well written
+programs that would run on the Model 2000. The list is far too long to print
+here, but at last count in the August 1, 1989 issue of the Whimper, there 
+were 547 programs of all types that would run on the Model 2000.  Obviously,
+as of the time this FAQ was written, most of the newer software will not run
+on the Model 2000 since the hardware requirements are far above what is 
+possible on the machine.  In general, programs that are meant to run on the
+IBM PC-XT, that do not access the video hardware directly, have a good
+chance of running on the Model 2000.  A good example of a regular IBM
+compatible program that could be made to run on the Model 2000 was Wordstar
+which required that video be set to use BIOS calls in the setup, as well as
+the printer port changed from LPT1: to PRN:.  After this, it ran normally.
+
+============================================================================
+30) Is it possible to get 'online' with a Model 2000?
+------
+    Yes, though only for calling a BBS or accessing the Internet through a
+UNIX shell account.  There is no software for making a TCP/IP connection
+directly.  A good terminal program, which also doubles as a BBS host, is
+called GT-Power.  It's quite a powerful package and utilizes a FOSSIL driver
+to access the Model 2000's serial port, so the standard IBM version could be
+used as long as you're able to find the correct FOSSIL for the Model 2000.
+There was an excellent BBS run out of Andrews AFB in Washington D.C. around
+1987, called TandyDC, and it was run on a Model 2000 and GT-Power.  It must
+be noted that there were two varieties of GT-Power produced, one which wrote
+directly to the serial port of an IBM-compatible and doesn't require the
+FOSSIL driver, and the version that used the FOSSIL driver to access the 
+serial ports.  The Model 2000 can only use the FOSSIL version.
+
+    The main choice for running a BBS host on a Model 2000 is GT-Power.  Due
+to thier usage of a FOSSIL driver though it may be possible to get either
+FIDO or OPUS to run on the Model 2000 as well.  It should be noted though
+that at this stage the versions being referred to are upwards of 10 years
+old and may no longer be supported or no longer available online. 
+
+============================================================================
+31) How can I run Infocom text adventures on the Model 2000?  
+------
+     It should also be pointed out that since Infocom released 'Planetfall'
+and 'The Witness' for the Model 2000 that it should be possible to play the
+other Infocom games such as 'Zork' and 'Enchanter' on the Model 2000 as
+well. This is because the data files between the various platforms remained
+the same, the interpreter being platform and not game-specific. An exception
+to this are the data files for Macintosh versions. Non-IBM systems such as
+the Amiga have used this fact to create a single interpreter capable of 
+running all of the Infocom text games using the IBM data files.   All of the
+Infocom text adventure games were at one time available on two CD-ROMs using
+the PC data files.  The Model 2000's interpreter may not be able to play
+later games, as the data format was changed somewhat as additional features
+were added. If anyone is able to test this, please let me know what works.
+
+	Infocom, which first brought Zork to microcomputers in 1980,
+released these games for a wide variety of platforms, including the Atari
+8-bit line, Commdore-64, IBM PC-XT, and various CP/M versions including for
+the Osborne.
+
+============================================================================
+32) Can I run Microsoft Windows on the Model 2000?  
+------
+     The only version of Windows that will run on the Model 2000 is Windows 
+version 1.  It requires a special driver disk, sold by Tandy under part#
+7002611.  It supported the Model 2000's high resolution graphics as well as
+the Digi-mouse.  Programs written to run under Windows 1 were then usable on
+the Model 2000, such as Pagemaker 1.
+
+============================================================================
+33) What are the 'MAI/Basic Four' programs?
+------
+	The MAI/Basic Four series of programs was a collection of business
+programs that were ported to the Model 2000 from thier origins on mainframe
+computers.  They included modules for general ledger, accounts payable, 
+accounts receivable, inventory control, order entry, purchase order control,
+and payroll.  For the small business, they brought a great deal of power to
+the Model 2000.  See section #28 of this FAQ for the Tandy catalog numbers
+for each module.  These programs were produced by MAI Inc. in 1983.
+
+	There are currently two gaps in the Tandy part numbers that fall 
+within the range of those for these modules, which I don't know the name of.
+Those part numbers are 26-5211 and 26-5216. These missing numbers may or may
+not be additional modules for this series.  The flyer I have that lists the
+various modules doesn't list either of these two or 'Accounts Receivable',
+#26-5213, so they may have been released later.
+
+============================================================================
+34) Are there any books available on the Model 2000?
+------
+     At one time there was a book entitled 'Mastering the Tandy 2000'.  It
+was 154 pages, and carried ISBN number 0-8306-1829-5.  It was written by Dan
+Keen and Dave Dischert and published by TAB Books in 1984.  There are a lot
+of programming examples, as well as in-depth data on the 80186 processor by
+providing a reprint of the July 1983 Intel datasheet.
+ 
+    Also, there was abook by David A. Lien, 'Learning Basic for the Tandy 
+1000/2000', which was sold through Radio Shack stores.  Both of these books
+are long out of print, though with some searching it may be possible to find
+a second-hand copy.  According to the 'Tandy 1000-series FAQ' by Jeff Hayes
+<tvdog@agate.net>, the Basic book by David A. Lien was included as part of a
+set of MS-DOS books which carried Tandy part# 25-1508.
+
+    Of course, there were also the MS-DOS and Basic handbooks Tandy shipped
+with the Model 2000, as well as the 'TRS-80 Model 2000 Service Manual'.  This
+was a large book, roughly 8-1/2" x 11" and approximately 400 or so pages and
+covered all aspects of the Model 2000's hardware, including data sheets from
+Intel for the CPU and supporting chips, as well as reference sections for the
+Tandon 10meg hard disk and Mitsubishi floppy drives.
+
+============================================================================
+35) What 'Tech Bulletins' were sent out by Tandy?
+------
+	Almost as soon as the Model 2000 started shipping, various bugs in
+the system began to appear.  As fixes for these problems were developed,
+Tandy sent out 'Tech Bulletins' to it's various Service Centers. Supposedly,
+if the user brought the machine into the nearest service center for a
+problem covered by one of the tech bulletins, it was to be fixed for free.
+Oddly, there didn't appear to be a pattern as to which machines needed which
+of the modifications performed, so some of them may have been attributable
+to the parts quality used at the time of the particular machines production.
+My original machine only needed the potentiometer in the PSU replaced to 
+stop random rebooting.    * following the date indicates last revision date.
+
+  #     Problem Description:                                Date Released:
+ ---    --------------------                                --------------
+ 001    When powered up video is not syncronized               04/18/88 *
+ 002    Improper power lead dress may cause A/C noise          12/08/83
+ 003    Installation of the expansion RAM bank                 12/16/83
+ 004    Modification to cure video jitter                      12/19/83
+ 005    Memory parity errors caused by U59                     02/27/84 *
+ 006    Complete or partial blank video display                01/18/84
+ 007    Modiciation to Rev. PP2 Hires Graphics board           01/16/86
+ 008    Installation of the color chipset                      01/18/84
+ 009    Identify proper PAL for Hires operation                07/12/88 *
+ 010    Both floppy drive activity LED's light                 01/24/84
+ 011    Shorting power supply pulling system down              03/16/84
+ 012    Component changes on hard drive controller board       04/12/84
+ 013    Assure proper operation of Memory Parity Interrupt     05/10/84
+ 014    To correct timing on external 256k memory board        01/30/85 *
+ 015    To correct blowing of power line fuse                  04/11/88 *
+ 016    Ensure proper seating of all PCB's                     04/24/85 *
+ 017    Random problems with internal hard drive               09/11/84 *
+ 018    Possible switch wire damage                            06/13/84
+ 019    Possible misalignment of CPU chip in socket            07/11/84
+ 020    Parity modification  for units with date code AA       10/10/85 *
+ 021    Random dots appearing on color monitor screen          04/24/85 *
+ 022    Installation of hard drive upgrade kit                 08/14/84
+ 023    To increase stability of power supply under load       08/21/84
+ 024    Intermittent 'Bad Command Reading Drive C' error       10/10/84 *
+ 025    Eliminate random memory errors on graphics baord       10/16/84
+ 026    Memory timing and refresh problems on ext. RAM PCB     06/28/85 *
+ 027    Test points for new Mitsubishi  floppy drive           11/21/84
+ 028    Installation of secondary hard drive                   01/29/85
+ 029    'Reflection' of video column zero on right side        04/24/85
+ 030    Insure proper connection of mother board to main PCB   05/22/85
+ 031    To remove possible interrupt conflicts on the bus      02/03/86 *
+ 032    Correct polarity of External Memory Parity Interrupt   11/15/85
+ 033    To prevent a false memory cycle                        11/15/85
+ 034    To correct parity latch timing                         02/10/86 *
+ 035    Allow installation of two or more serial exp. boards   11/26/85
+ 036    Eliminate timing problem with BUSARDY* signal          12/05/85
+ 037    Eliminate data errors on the serial exp. board         12/06/85
+ 038    8087 numeric coprocessor upgrade procedure             01/06/86
+ 039    Identifying faulty 80186 CPU chips                     03/12/86 *
+ 040    False trigger could cause garbage to be written to HD  12/30/85
+ 041    Improve stability of VCO                               01/22/86
+ 042    Eliminate random reboot because of power supply        03/26/86 *
+ 043    Substitution of 2000 keyboard with Tandy 1000 keyboard 04/15/86
+ 044    Allow hard disk controller to use external drive C:    09/08/87 *
+ 045    Enable proper modem operation                          11/19/87
+ 046    Permit use of Samsung RAM chips & reduce parity errors 06/01/88 *
+
+    The Tandy 2000 Orphans originally distributed the above bulletins bound
+into a single package, which is where the above list was taken from.  A PDF
+of this package is available at the homepage for this FAQ, www.cchaven.com.
+
+============================================================================
+36) Where can I get support for this machine?
+------
+    The best place to get support is Usenet in comp.sys.tandy.  A number of
+people who frequent that newsgroup have a great deal of knowledge concerning
+this machine.  If you're in need of a replacement MS-DOS 2.11.03 disk, as of
+September 1999 they could still be ordered from Tandy by calling 
+1-800-433-2024 for Tandy Software Exchange and giving them part# 700-2701.
+
+     A company called 'Pacific Computer Exchange' in Oregon used to deal 
+quite a bit in Model 2000 parts.  They're old contact information is:  
+
+     Pacific Computer Exchange
+     1031 S.E. Mill St., Suite # B
+     Portland, OR 97214
+     Phone: (503) 236-2949
+
+    Also, from 1987 until 1990, there was a user's group called the 'Tandy
+2000 Orphans' who published a monthly newsletter called the 'Whimper'.  The
+group exchanged hardware and software hints and tips.  It was disbanded and
+the newsletter ceased publication after 22 issues.  The newsletters are a
+great souce of information though. At the time the group disbanded, the last
+issue of the 'Whimper' reported that there were nearly 350 active members
+and another 220 inactive members.  The group billed itself as the 'worlds
+largest single machine user-group'.  A sample newsletter in PDF format is
+available at the homepage for this FAQ, http://www.cchaven.com.
+
+     At one point, some in the Tandy community looked on the Orphans as
+being software pirates, but this was not true.  Though software for the
+Model 2000 was advertised through the 'Whimper' and provided by the group to
+it's member's, only members who provided proof of already owning the product
+could order certain items that were considered commercial.  At the time,
+companies such as Ashton-Tate and Lotus Development Corp. relied heavily on
+on-disk copy protection, so one of the things the group provided to 
+legitimate owners was un-protected program disks which could be backed up.
+Since the Model 2000 versions of these programs were no longer available by
+this time, data loss due to not being able to use an original program disk
+was quite a problem.  Framework, Lotus 1-2-3 and Microsoft Flight Simulator
+were just a few of the programs which were Model 2000-specific versions
+which used on-disk copy protection and could not normally be copied or
+backed-up.  One of the popular on-disk protection schemes at the time 
+involved a counter which kept track of how many times the program had been
+installed.  If the counter showed more more than one or two installations,
+the install program would abort.  The only way to reset the counter was to
+use the same disk to uninstall the software.  Ashton-Tate used this type of
+protection with it's integrated package 'Framework'.  It's easy to see how
+one could easily lose the ability to use the program through legitimate
+problems such as disk errors that required re-installation.
+
+    Envision Designs stopped manufacturing thier memory products and 8087
+coprocessor board in 1990.
+
+============================================================================
+37) What is 'Envision Designs'?
+------
+	Envision Designs was run by Dave Nechodom in the late 1980's and 
+produced hardware upgrades for the Model 2000.  These upgrades included
+various RAM upgrades as well as a math coprocessor upgrade.  In 1990, the
+company decided that the market for these products had grown too small to 
+warrant further support, so further sale of all products for the Model 2000
+was dropped.  At the time, it was rumored that the procedures for doing the
+various modifications to the machine would be made available to the Orphans
+usergroup.  Unfortunately, this never happened and these upgrades and 
+modifications are no longer available to Model 2000 owners. Supposedly there
+was at least one text file circulating that described how to modify the
+standard #26-5161 memory expansion board to hold a full 640k, but
+unfortunately I have been unable to locate a copy of it.
+
+============================================================================
+38) What is 'Microlink Technology'?
+------
+     Microlink Technology was run by Bob Spencer and, among other things,
+produced software for the Model 2000 and sold it in the Whimper newsletter.
+His main item for the Model 2000 was a program called MLFormat, which
+allowed the Model 2000 to format and use hard disks larger than 32MB.  He
+also sold replacement ROM chips for the 2000's mainboard which fixed a
+number of bugs, including allowing it to display the correct amount of RAM
+at boot if one of the Envision 896k RAM upgrades was installed.  Another
+piece of software he sold for the 2000 was 'Mousetrap' which allowed the
+Digi-mouse to be used in place of the arrow keys, ENTER key or F1 function
+key and in nearly any program, even if it didn't support the mouse.
+
+============================================================================
+39) Future plans for this FAQ include:
+------
+     a) Details on any hardware modifications, other than 'tech bulletins' 
+     b) The addition of any other software and/or hardware specifically for
+	  the Model 2000 that I learn the existence of.
+     c) Details concerning the developement of the Model 2000.  Can anyone
+	  supply information concerning this area??
+     
+============================================================================
+   That's it for this version of the FAQ.  I will update this as I find new
+information.  Comments, suggestions, and corrections are welcome!  I would
+also be indebted to anyone that could provide me with Microsoft Flight 
+Simulator-1 for the Model 2000.
+
+          Copyright (2005) by Jeff Hellige (jhellige@earthlink.net)
