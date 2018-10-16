@@ -20,5 +20,4 @@ Recent additions
 
 - 10/15/2018 [Tandy 2000 FAQ](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/t2kfaq.txt)
 - 10/15/2018 [Radio Shack Catalog RSC-15 1986](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Catalogs/Tandy%20Radio%20Shack%20Computer%20Catalog%201986%20RSC-15.pdf)
-
 - 10/15/2018 [Tandy 2000 BIOS Disassembled](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/T2KBIOS%20Disassembled)
