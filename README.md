@@ -18,6 +18,7 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/16/2018 [DOS Tools to read T2K disk in a 1.2mb floppy drive](https://github.com/Tandy2K/Tandy2000/tree/master/Software/DOS%201.2%205.25%20drive%20tools)
 - 10/15/2018 [Tandy 2000 FAQ](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/t2kfaq.txt)
 - 10/15/2018 [Radio Shack Catalog RSC-15 1986](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Catalogs/Tandy%20Radio%20Shack%20Computer%20Catalog%201986%20RSC-15.pdf)
 - 10/15/2018 [Tandy 2000 BIOS Disassembled](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/T2KBIOS%20Disassembled)
