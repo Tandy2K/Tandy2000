@@ -8,19 +8,11 @@ However, if you place the VI.EXE file anywhere else, you will have to modify the
 
 * Use the original VI_CMP.EXE
 * Place the VI_CMP.EXE file wherever you feel like
-* Construct a batch file roughly equivalent to the following:
+* Ensure that the included VIM.BAT file is in your path, and edit accordingly.
 
----
-copy (wherever)\VI_CMP.EXE
-VI_CMP.EXE %1 %2 %3 %4 %5 %6 %7 %8 %9
-del VI_CMP.EXE
----
+If you go the batch file route and want to rename it as VI.BAT, you will need to delete or rename the VI.EXE file because MS-DOS puts .BAT files before .EXE in the executable extension priority list.
 
-I have already done this for you and saved the batch file as VIM.BAT.  If you want to rename it as VI.BAT, you will need to delete or rename the VI.EXE file because MS-DOS puts .BAT files before .EXE in the executable extension priority list.
-
--
-
-You will need to include
+Also, you will need to include
 
 DEVICE=ANSI.SYS
 
