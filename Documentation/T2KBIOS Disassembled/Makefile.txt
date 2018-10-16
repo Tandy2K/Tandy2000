@@ -1,0 +1,28 @@
+
+all: bios.rom
+
+bios.rom: bios.obj
+	@echo " -WLINK-  Linking '$@'"
+	@wlink name bios.rom system dos \
+		option quiet \
+		option start=_entry \
+		output raw offset=0xfe000 \
+		option fillchar=0x00 \
+		option nodefaultlibs \
+		option nofarcalls \
+		option statics \
+		option map=bios.map \
+		order \
+		  clname DATA \
+		    segment _DATA  segaddr=0x0000 offset=0x0040 \
+		  clname CODE \
+		    segment _TEXT   segaddr=0xfe00 offset=0x0000 \
+		disable 1014 \
+		file { $^ }
+
+%.obj: %.asm
+	@echo " -WASM-   Assembling '$<'"
+	@wasm -zq -bt=dos -ms -1 -wx -we -fo=$@ $<
+
+clean:
+	rm -rf *~ *.rom *.obj *.map

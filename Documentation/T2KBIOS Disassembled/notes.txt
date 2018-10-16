@@ -1,0 +1,236 @@
+
+Interrupt Table
+  Int  Vect
+  00h  000h   HW: Divide Error
+  01h  004h   HW: Single Step
+  02h  008h   HW: NMI
+  03h  00ch   HW: Breakpoint
+  04h  010h   HW: INT0 (Overflow)
+  05h  014h   HW: Array Bounds
+  06h  018h   HW: Unused Opcode
+  07h  01ch   HW: ESC Opcode
+  08h  020h   HW: Timer 0
+  09h  024h   HW: Reserved
+  0ah  028h   HW: DMA 0
+  0bh  02ch   HW: DMA 1
+  0ch  030h   HW: INT0
+  0dh  034h   HW: INT1
+  0eh  038h   HW: INT2
+  0fh  03ch   HW: INT3
+
+  10h  040h
+  11h  044h   
+  12h  048h   HW: Timer 1
+  13h  04ch   HW: TImer 2 & BIOS disk services
+  14h  050h   -> fills with 
+  15h  054h   
+  16h  058h   
+  17h  05ch   
+  18h  060h  -> 1b00:0
+  19h  064h  -> 1b00:0
+  1ah  068h   
+  1bh  06ch   
+  1ch  070h   
+  1dh  074h   
+  1eh  078h   -> pointing to FDC table
+  1fh  07ch   
+
+  20h  080h   
+  21h  084h   
+  22h  088h   
+  23h  08ch   
+  24h  090h   
+  25h  094h   
+  26h  098h   
+  27h  09ch   
+  28h  0a0h   
+  29h  0a4h   
+  2ah  0a8h   
+  2bh  0ach   
+  2ch  0b0h   
+  2dh  0b4h   
+  2eh  0b8h   
+  2fh  0bch   
+
+  30h  0c0h   
+  31h  0c4h   
+  32h  0c8h   
+  33h  0cch   
+  34h  0d0h   
+  35h  0d4h   
+  36h  0d8h   
+  37h  0dch   
+  38h  0e0h   
+  39h  0e4h   
+  3ah  0e8h   
+  3bh  0ech   
+  3ch  0f0h   
+  3dh  0f4h   
+  3eh  0f8h   
+  3fh  0fch   
+
+  40h  100h   
+  41h  104h   -> Points to the middle of copyright string?
+  42h  108h   
+  43h  10ch   
+  44h  110h   
+  45h  114h   
+  46h  118h   
+  47h  11ch   
+  48h  120h   
+  49h  124h   
+  4ah  128h   
+  4bh  12ch   
+  4ch  130h   
+  4dh  134h   
+  4eh  138h   
+  4fh  13ch   
+
+  50h  140h   
+  51h  144h   
+  52h  148h   Same as int 10h - video services
+  53h  14ch   
+  54h  150h   
+  55h  154h   
+  56h  158h   Same as int 13h - disk services
+  57h  15ch   
+  58h  160h   
+  59h  164h   
+  5ah  168h   
+  5bh  16ch   
+  5ch  170h   
+  5dh  174h   
+  5eh  178h   
+  5fh  17ch   
+
+  60h  180h   
+  61h  184h   
+  62h  188h   
+  63h  18ch   
+  64h  190h   
+  65h  194h   
+  66h  198h   
+  67h  19ch   
+  68h  1a0h   
+  69h  1a4h   
+  6ah  1a8h   
+  6bh  1ach   
+  6ch  1b0h   
+  6dh  1b4h   
+  6eh  1b8h   
+  6fh  1bch   
+
+  70h  1c0h   INT0 cascade PIC 0 / S0 : Main logic board parity error
+  71h  1c4h   INT0 cascade PIC 0 / S1 : Memory/peripheral ack timeout
+  72h  1c8h   INT0 cascade PIC 0 / S2 : On-board UART TX/RX
+  73h  1cch   INT0 cascade PIC 0 / S3 : Reserved for 4x SDLC serial board
+  74h  1d0h   INT0 cascade PIC 0 / S4 : On-board floppy disk controller
+  75h  1d4h   INT0 cascade PIC 0 / S5 : Reserved for network interface
+  76h  1d8h*  INT0 cascade PIC 0 / S6 : Primary hard disk controller
+  77h  1dch   INT0 cascade PIC 0 / S7 : Reserved for secondary hard disk ctrlr
+
+  78h  1e0h   INT1 cascade PIC 1 / S0 : Keyboard
+  79h  1e4h   INT1 cascade PIC 1 / S1 : CRT 9007
+  7ah  1e8h   INT1 cascade PIC 1 / S2 : Mouse
+  7bh  1ech   INT1 cascade PIC 1 / S3 : Line printer
+  7ch  1f0h   INT1 cascade PIC 1 / S4 : Math-coprocessor
+  7dh  1f4h   INT1 cascade PIC 1 / S5 : Add-on memory parity error
+  7eh  1f8h   INT1 cascade PIC 1 / S6 : DMA programming error
+  7fh  1fch   INT1 cascade PIC 1 / S7 : External HD I/O
+
+
+
+
+
+
+
+
+	LCS:  Not used
+	MCS0: 00000h -> 1ffffh [128KB] Motherboard RAM, 0 wait, consider RDY
+	MCS1: 20000h -> 3ffffh [128KB] Motherboard RAM, 0 wait, consider RDY
+	MCS2: 40000h -> 5ffffh [128KB] Unused
+	MCS3: 60000h -> 7ffffh [128KB] Unused
+	UCS:  f8000h -> fffffh [ 32KB] ROM Selects, 3 wait, ignore RDY
+
+	PCS: All 2 wait, ignore RDY
+     PCS0: 000h -> 07fh 
+	      000h -> 001h PCS0P0A*    Speaker/clocks control
+	      000h                         bit 0: 0 kbd power off, 1 kbd on
+	      000h                         bit 1: Baud rate clock gate
+	      000h                         bit 2: Speaker gate
+	      000h                         bit 3: Speaker data
+	      000h                         bit 4: Refresh request gate
+	      000h                         bit 5: FDC reset
+	      000h                         bit 6: Timer 0 input
+	      000h                         bit 7: Timer 1 input
+	      002h -> 003h PCS0P0B*    DMA multiplexer control
+	      004h -> 005h FLDTC*      Floppy disk term count
+	      006h -> 007h ------      Unused
+	      010h -> 01fh PCS0P1      8251A serial port
+	      020h -> 02fh PCS0P2      Unused
+	      030h -> 03fh PCS0P3      8272A FDC
+	      040h -> 04fh PCS0P4      8253 PIT
+	                                 1) Speaker (1 MHz)
+	                                 2) 8251 UART baud rate (2 MHz)
+	                                 3) DRAM refresh (2 MHz)
+	      050h -> 05fh PCS0P5      8255A
+	      050h                     Port A: [R/W] Printer Data
+	      052h:0                   Port B: bit 0: Aux input 0 (unused)
+	      052h:1                   Port B: bit 1: Aux input 1 (unused)
+	      052h:2                   Port B: bit 2: Aux input 2 (unused)
+	      052h:3                   Port B: bit 3: LPRACK*
+	      052h:4                   Port B: bit 4: LPRFLT* (fault)
+	      052h:5                   Port B: bit 5: LPRSEL* (select)
+	      052h:6                   Port B: bit 6: LPRPAEM* (paper empty)
+	      052h:7                   Port B: bit 7: LPRBSY (busy)
+	      054h:0                   Port C: bit 0: A dir, 0 in, 1 out
+	      054h:12                  Port C: bits 2-1: 01 Port B KBD, 10 port B revision
+	      056h:                    PPI Control: 
+
+
+	      060h -> 06fh PCS0P6      8259A controller 0
+	      070h -> 07fh PCS0P7      8259A controller 1
+     PCS1: 080h -> 0ffh
+	      080h -> 09fh BUSDMACKO*  FDC DMA Acknowledgement
+	      0a0h -> 0bfh BUSDMACK1*  Unused
+	      0c0h -> 0dfh BUSDMACK2*  Unused
+	      0e0h -> 0ffh BUSDMACK3*  HDC DMA Acknowledgement
+     PCS2: 100h -> 17fh             Video Controller
+
+	      101h                       bit 0: A15
+	      101h                       bit 1: A16
+	      101h                       bit 2: A17
+	      101h                       bit 3: A18
+	      101h                       bit 4: A19
+	      101h                       bit 5: CLKSP0 (SH 8)
+	      101h                       bit 6: Video clock selection
+	      101h                       bit 7: VIDOUTSEL
+
+
+     PCS3: 180h -> 1ffh
+	      180h                     [RO] Status port
+	      180h                     Palette reg 0 (lower 4 bits select color)
+	      182h                     Palette reg 1 (lower 4 bits select color)
+	      184h                     Palette reg 2 (lower 4 bits select color)
+	      186h                     Palette reg 3 (lower 4 bits select color)
+	      188h                     Palette reg 4 (lower 4 bits select color)
+	      18ah                     Palette reg 5 (lower 4 bits select color)
+	      18ch                     Palette reg 6 (lower 4 bits select color)
+	      18eh                     Palette reg 7 (lower 4 bits select color)
+	      190h                     Palette reg 8 : Mono palette select
+	      198h                     Alpha: Background high intensity color
+	      19ah                     Alpha: Character  high intensity color
+	      19ch                     Alpha: Background low  intensity color
+	      19eh                     Alpha: Character  low  intensity color
+     PCS4: 200h -> 27fh
+	      26ch                     HDC: Software reset
+	      270h                     HDC: Data register
+	      272h                     HDC: Error/write pre-comp
+	      274h                     HDC: Sector count
+	      276h                     HDC: Sector number
+	      278h                     HDC: Cylinder LSB
+	      27ah                     HDC: Cylinder MSB (D1 & D0 only)
+	      27ch                     HDC: SDH
+	      27eh                     HDC: Status/command
+     PCS5: 280h -> 2ffh             External memory refresh control
+     PCS6: 300h -> 37fh Not used
