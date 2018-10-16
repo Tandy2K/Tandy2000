@@ -1,5 +1,6 @@
 Microsoft Flight Simulator v2.12
 For TANDY 1000, 1200HD, and 2000
+Tandy Catalog # 26-5379
 
 ---
 Notes
