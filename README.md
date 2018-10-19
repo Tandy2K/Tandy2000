@@ -30,6 +30,7 @@ Recent additions
   - [Tandy Multiplan Disk 26-5311](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Multiplan%2026-5311)
   - [Multiplan Quick Reference](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Multiplan%2026-5311%20Quick%20Ref.pdf)
 - 10/18/2018 [Versacad Entry Level 26-5282](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Versacad%20Entry%20Level%2026-5282.pdf)
+  - [Versacad Entry Level Disk 26-5282](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Versacad%20Entry%20Level%2026-5282)
 - 10/17/2018 [Tandy Digitizer Pad GT-2000 26-1186](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Tandy%20Digitizer%20Pad%20GT-2000%2026-1186.pdf)
 - 10/17/2018 [About DOS 02.11.03 Basic Manual Addendum 26-5103](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/MS-DOS%202.11.xx/About%20DOS%2002-11-03-Basic%20Addendum%2026-5103.pdf)
 - 10/16/2018 [DOS Tools to read T2K disk in a 1.2mb floppy drive](https://github.com/Tandy2K/Tandy2000/tree/master/Software/DOS%201.2%205.25%20drive%20tools)
