@@ -18,6 +18,7 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/18/2018 [Disk Cartridge System Interface Kit 26-5147](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Disk%20Cartridge%20System%20Interface%20Kit%2026-5147.pdf)
 - 10/18/2018 [Tandy Multiplan 26-5311 ](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Multiplan%2026-5311.pdf)
   - [Multiplan Quick Reference](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Multiplan%2026-5311%20Quick%20Ref.pdf)
 - 10/18/2018 [Versacad Entry Level 26-5282](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Versacad%20Entry%20Level%2026-5282.pdf)
