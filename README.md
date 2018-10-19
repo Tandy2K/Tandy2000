@@ -18,6 +18,7 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/18/2018 [The Home Accountant Plus 26-5340](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/The%20Home%20Accountant%20Plus%2026-5340.pdf)
 - 10/18/2018 [Graphwriter 26-5276](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/GraphWriter%2026-5276.pdf)
 - 10/18/2018 [PCM Feb 1987 2000 Article](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/PCM/PCM_Feb%2087_2000%20Article.pdf)
 - 10/18/2018 [Disk Cartridge System Interface Kit 26-5147](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Disk%20Cartridge%20System%20Interface%20Kit%2026-5147.pdf)
@@ -31,4 +32,4 @@ Recent additions
 - 10/15/2018 [Radio Shack Catalog RSC-15 1986](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Catalogs/Tandy%20Radio%20Shack%20Computer%20Catalog%201986%20RSC-15.pdf)
 - 10/15/2018 [Tandy 2000 BIOS Disassembled](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/T2KBIOS%20Disassembled)
 - 10/15/2018 [LUMENA 26-5281 Manual](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/LUMENA%202000%2026-5281.pdf)
-- 10/15/2018 [LUMENA 26-5281 Disk](https://github.com/Tandy2K/Tandy2000/tree/master/Software/LUMENA%2026-5281)
+  - 10/15/2018 [LUMENA 26-5281 Disk](https://github.com/Tandy2K/Tandy2000/tree/master/Software/LUMENA%2026-5281)
