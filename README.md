@@ -18,6 +18,9 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/19/2018 [DeskMate Reference Manual 26-5316](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/DeskMate%20Reference%20Manual%2026-5316.pdf)
+  - [DeskMate Quick Reference 26-5316](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/DeskMate%20Quick%20Ref%2026-5316.pdf)
+  - [DeskMate Tutorial 26-5316](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/DeskMate%20Tutorial%2026-5316.pdf)
 - 10/19/2018 [Multimate 26-5330](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Multimate%2026-5330.pdf)
 - 10/19/2018 [vi Editor](https://github.com/Tandy2K/Tandy2000/tree/master/Software/vi)
 - 10/19/2018 [Lotus 1-2-3 26-5300 Part 1](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Lotus%201-2-3%2026-5300_Part1.pdf)
