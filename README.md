@@ -18,6 +18,7 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/19/2018 [Multimate 26-5330](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Multimate%2026-5330.pdf)
 - 10/19/2018 [vi Editor](https://github.com/Tandy2K/Tandy2000/tree/master/Software/vi)
 - 10/19/2018 [Lotus 1-2-3 26-5300 Part 1](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Lotus%201-2-3%2026-5300_Part1.pdf)
   - 10/19/2018 [Lotus 1-2-3 26-5300 Part 2](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Lotus%201-2-3%2026-5300_Part2.pdf)
