@@ -18,6 +18,7 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/19/2018 [Volkswriter Deluxe](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Volkswriter%20Deluxe.pdf)
 - 10/19/2018 [pfs: Report 26-5306](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/pfs%20Report%2026-5306.pdf)
 - 10/19/2018 [pfs: File 26-5305 ](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/pfs%20File%2026-5305.pdf)
 - 10/18/2018 [Blank Disks in IMD ImageDisk format](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Blank%20Disk%20Images%20in%20Imagedisk%20format)
