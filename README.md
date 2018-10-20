@@ -18,6 +18,8 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/19/2018 [Lotus 1-2-3 26-5300 Part 1](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Lotus%201-2-3%2026-5300_Part1.pdf)
+  - 10/19/2018 [Lotus 1-2-3 26-5300 Part 2](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Lotus%201-2-3%2026-5300_Part2.pdf)
 - 10/19/2018 [Volkswriter Deluxe](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Volkswriter%20Deluxe.pdf)
 - 10/19/2018 [pfs: Report 26-5306](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/pfs%20Report%2026-5306.pdf)
 - 10/19/2018 [pfs: File 26-5305 ](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/pfs%20File%2026-5305.pdf)
