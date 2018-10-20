@@ -1,0 +1,29 @@
+Microsoft Flight Simulator v2.12
+For TANDY 1000, 1200HD, and 2000
+Tandy Catalog # 26-5379
+
+---
+Notes
+---
+
+I recently acquired this little gem from a nice seller on eBay who got it to me in excellent condition.  After briefly testing the program disk to ensure that it was in working order, I imaged it via ImageDisk.  I was warned in advance by Jeff Hellige, the author of the TRS-80 Model 2000 FAQ, that it would be copy protected and that I might not succeed.
+
+However, I was fairly confident that the bag of tricks that Microsoft was likely to employ in ~1983(turns out it was 1985) would not be sufficient to block a modern(-ish) disk imager tool, and I was right.  I simply chose these options in ImageDisk 1.18:
+
+* Double-step: Off
+* Full analysis: Yes
+* Keep bad sector: Yes
+
+My 1.2MiB 5.25" floppy drive sounded terrible while doing the imaging, and took quite a bit longer than normal to finish the job.  ImageDisk also spewed a bunch of errors that I should have recorded for those who are interested(I can re-do the imaging if anyone is curious), but regardless, the imaging worked.  
+
+I then wrote the image to a fresh 360KiB 5.25" floppy, popped it in my Tandy 2000, and hoped for the best.
+
+At first, I thought that it DIDN'T work, because the program crashed with a "Divide Overflow" error.  I slept on it.  This afternoon when I got home from work, I had a flash of insight; perhaps there were multiple forms of copy protection in play, here.  I had noticed when I first saw the program disk that it had a piece of foil over the write-protection notch in the side of the floppy.  Suspecting that Microsoft programmed Flight Simulator to *check* to see if the disk is read-only, I put a piece of masking tape over my copy, put it in the Tandy 2000, and ran the FS.COM program.
+
++ + + Queue Victory Fanfare + + +
+
+Enjoy.
+
+aquishix
+2018-10-16
+
