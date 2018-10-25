@@ -18,6 +18,7 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/24/2018 [Tandy 2000 Serial Expansion Board 26-5164](https://github.com/Tandy2K/Tandy2000/blob/master/Hardware/Tandy%202000%20Serial%20Expansion%20Board%2026-5164.pdf)
 - 10/20/2018 [dBase II 26-5352](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/dBase%20II%2026-5352.pdf)
 - 10/19/2018 [MultiMate Upgrade 700-2601](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/MultiMate%20Upgrade%20700-2601.pdf)
   - [MultiMate Upgrade Disk Images 700-2601](https://github.com/Tandy2K/Tandy2000/tree/master/Software/MultiMate%20Upgrade%20700-2601)
