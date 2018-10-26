@@ -18,6 +18,19 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/25/2018 [MS Flight Simulator 26-5379](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/MS%20Flight%20Simulator%2026-5379.pdf)
+  - [MS Flight Simulator Disk Image](https://github.com/Tandy2K/Tandy2000/tree/master/Software/MS%20Flight%20Simulator%2026-5379)
+- 10/25/2018 [MS Word Tandy 2000 26-5314](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/MS%20Word%202000%2026-5314.pdf)
+  - [MS Word Disk Images](https://github.com/Tandy2K/Tandy2000/tree/master/Software/MS%20Word%20Tandy%202000%2026-5314)
+- 10/25/2018 [Tandy 2000 Demo FC-0128](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Tandy%202000%20Demo%20FC-0128.pdf)
+  - [Tandy 2000 Demo Disk Image](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Tandy%202000%20Demo%20FC-0128)
+- 10/25/2018 [pfs Write 26-5309](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/pfs%20Write%2026-5309.pdf)
+  - [pfs Write Disk Image](https://github.com/Tandy2K/Tandy2000/tree/master/Software/pfs%20Write%2026-5309)
+- 10/25/2018 [pfs Graph 26-5307](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/pfs%20Graph%2026-5307.pdf)
+  - [pfs Graph Disk Image](https://github.com/Tandy2K/Tandy2000/tree/master/Software/pfs%20Graph%2026-5307)
+- 10/25/2018 [DeskMate II 25-1164](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/DeskMate%20II%2025-1164.pdf)
+  - [DeskMate II Quick Reference](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/DeskMate%20II%20Quick%20Ref%2025-1164.pdf)
+  - [DeskMate II Disk Images](https://github.com/Tandy2K/Tandy2000/tree/master/Software/DeskMate%20II%2026-25-1164)
 - 10/24/2018 [Tandy 2000 Serial Expansion Board 26-5164](https://github.com/Tandy2K/Tandy2000/blob/master/Hardware/Tandy%202000%20Serial%20Expansion%20Board%2026-5164.pdf)
 - 10/20/2018 [dBase II 26-5352](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/dBase%20II%2026-5352.pdf)
 - 10/19/2018 [MultiMate Upgrade 700-2601](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/MultiMate%20Upgrade%20700-2601.pdf)
