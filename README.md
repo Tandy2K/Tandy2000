@@ -18,13 +18,17 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/26/2018 [The Bit Bucket Feb 9 1989](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Magazines-Newsletters/The%20Bit%20Bucket/The%20Bit%20Bucket%20Feb%208%201989.pdf)
 - 10/26/2018 [DIGI Mouse Clock Controller Board 26-5144](https://github.com/Tandy2K/Tandy2000/blob/master/Hardware/DIGI-Mouse-Clock%20Controller%20Board%2026-5144.pdf)
 - 10/26/2018 [Model 2000 External 128K Ram Board 26-5161](https://github.com/Tandy2K/Tandy2000/blob/master/Hardware/Model%202000%20External%20128K%20RAM%20Board%2026-5161.pdf)
 - 10/26/2018 [SuperCalc3 26-5302](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/SuperCalc3%2026-5302)
-- 10/26/2018 [Videotex Plux 26-5260](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/Videotx%20Plus%2026-5260)
+  - [SuperCalc3 Disk Image](https://github.com/Tandy2K/Tandy2000/tree/master/Software/SuperCalc3%2026-5302)
+- 10/26/2018 [Videotex Plus 26-5260](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/Videotx%20Plus%2026-5260)
+  - [Videotex Plus Disk Image](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Videotx%20Plus%2026-5260)
 - 10/26/2018 [Introduction to the Model 2000](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Intro%20to%20the%20Model%202000.pdf)
 - 10/26/2018 [SSI Wordperfect Dealer Kit](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/SSI%20Word%20Perfect%20Dealer%20Kit.pdf)
-- 10/26/2018 [Softterm 26-5261](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Softerm%202000%2026-5261.pdf)
+- 10/26/2018 [Softerm 2000 26-5261](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Softerm%202000%2026-5261.pdf)
+  - [Softerm 2000 Disk Image](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Softerm%202000%2026-5261)
 - 10/26/2018 [Reference Guide for the Model 2000](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Reference%20Guide%20for%20the%20Model%202000.pdf)
 - 10/26/2018 [Turbo Pascal 3.0xx Tandy 2000 Patch](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Turbo%20Pascal%203.0xx%20Tandy%202000%20Patch.pdf)
 - 10/25/2018 [dBase II Disk Images](https://github.com/Tandy2K/Tandy2000/tree/master/Software/dBase%20II)
