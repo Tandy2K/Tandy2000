@@ -18,6 +18,7 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 Recent additions
 
+- 10/27/2018 [SSI Word Perfect 3.0 Tandy 2000](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/SSI%20Word%20Perfect%20Tandy%202000)
 - 10/26/2018 [The Bit Bucket Feb 9 1989](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Magazines-Newsletters/The%20Bit%20Bucket/The%20Bit%20Bucket%20Feb%208%201989.pdf)
 - 10/26/2018 [DIGI Mouse Clock Controller Board 26-5144](https://github.com/Tandy2K/Tandy2000/blob/master/Hardware/DIGI-Mouse-Clock%20Controller%20Board%2026-5144.pdf)
 - 10/26/2018 [Model 2000 External 128K Ram Board 26-5161](https://github.com/Tandy2K/Tandy2000/blob/master/Hardware/Model%202000%20External%20128K%20RAM%20Board%2026-5161.pdf)
