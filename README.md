@@ -17,7 +17,8 @@ _Please get in touch if you have items to contibute or need help imaging/scannin
 
 
 Recent additions
-
+- 11/14/2020 [Additional Multimate Images](https://github.com/Tandy2K/Tandy2000/tree/master/Software/MultiMate%2026-5330)
+- 11/14/2020 [Tandy 2000 Remote](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Remote)
 - 11/1/2018 [Tandy CM-1 Operation Manual 26-5112](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Tandy%20CM-1%20Operation%20Manual%2026-5112.pdf)
 - 11/1/2018 [Tandy VM-1 Operation Manual 26-5111](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Tandy%20VM-1%20Operation%20Manual%2026-5111.pdf)
 - 10/27/2018 [Tandy 2000 Schematics](https://github.com/Tandy2K/Tandy2000/tree/master/Hardware/Tandy%202000%20Schematics)
