@@ -3,7 +3,7 @@
 
 ![Image of Tandy 2000HD](https://github.com/Tandy2K/Tandy2K/blob/master/Images/T2KHDsmall.png?raw=true)
 
-Archive for manuals, software, etc. for the Tandy 2000 personal computer.
+Archive for manuals, software, etc. for the Tandy 2000 personal computer. 
 
 ## Tandy 2000 Github Archive Links
 
@@ -12,6 +12,8 @@ Archive for manuals, software, etc. for the Tandy 2000 personal computer.
 - [Software Images](https://github.com/Tandy2K/Tandy2000/blob/master/Software/)
 - [Magazines-Newsletters](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/Magazines-Newsletters)
 - [Catalogs](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/Catalogs)
+
+Archive for manuals, software, etc. for the Tandy 3000/4000 personal computer. 
 
 ## Tandy 3000 Github Archive Links
 - [Tandy 3000 Archive](https://github.com/Tandy2K/Tandy3000)
