@@ -13,10 +13,14 @@ Archive for manuals, software, etc. for the Tandy 2000 personal computer.
 - [Magazines-Newsletters](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/Magazines-Newsletters)
 - [Catalogs](https://github.com/Tandy2K/Tandy2000/tree/master/Documentation/Catalogs)
 
+## Tandy 3000 Github Archive Links
+- [Tandy 3000 Archive](https://github.com/Tandy2K/Tandy3000)
+
 _Please get in touch if you have items to contibute or need help imaging/scanning._
 
 
 Recent additions
+- 09/26/2025 [Xenix 286](https://github.com/Tandy2K/Tandy3000/tree/main/Software/Xenix%20286)
 - 11/14/2020 [Additional Multimate Images](https://github.com/Tandy2K/Tandy2000/tree/master/Software/MultiMate%2026-5330)
 - 11/14/2020 [Tandy 2000 Remote](https://github.com/Tandy2K/Tandy2000/tree/master/Software/Remote)
 - 11/1/2018 [Tandy CM-1 Operation Manual 26-5112](https://github.com/Tandy2K/Tandy2000/blob/master/Documentation/Tandy%20CM-1%20Operation%20Manual%2026-5112.pdf)
